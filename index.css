@@ -1,0 +1,61 @@
+
+body{
+    margin: auto;
+    background-color: black;
+    color: orange;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.desc{
+    list-style-type: none;
+}
+
+.mainmenu{
+    margin-top: 100px;
+    background-color: black;
+    width: 30%;
+    height: 100%;
+    animation-name: sl4v3;
+    animation-duration: 2s;
+}
+
+h2{
+    margin: 10px;
+}
+
+@keyframes sl4v3 {
+    0% {opacity: 0.1;}
+    100% {opacity: 1;}
+}
+
+h2:hover{
+    position: relative;
+   width: 10%;
+   height: 10%;
+}
+
+a:visited {
+    color: orange;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    opacity: 0.5;
+
+}
+
+
+a{
+    color: orange;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+::selection {
+    color: black;
+    background-color: orange;
+}
